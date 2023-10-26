@@ -1,0 +1,82 @@
+body{
+
+    background-image:black;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.netflix_logo{
+    background-color: rgba(0,0,0,0);
+    padding-left: 290px;  
+    padding-top: 20px; 
+}
+.netflix_logo img{
+    width:1000px;
+    height: 220px;
+}
+.logincenter{
+    background-color: rgba(0,0,0,0.899);
+    width:430px;
+    height:630px;
+    border-radius: 5px;
+    padding:50px;
+}
+.small-text{
+    font-size: 13px;
+}
+.form-control{
+    box-shadow: none !important;
+    
+}
+.footer {
+    background-color: #000000;
+    color: #757575;
+    padding: 20px 0;
+}
+.footer h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer a {
+    color: #757575;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #fff;
+}
+.image {
+    transition: opacity 0.3s;
+}
+.image:hover {
+    opacity: 0.7; /* Adjust the opacity level as needed */
+}
+.input-lg {width: 600px;height: 50px;}
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block;}
+    .collapse.navbar-collapse { display: none; }
+    .netflix_logo {
+        padding-left: 0; /* Remove left padding */
+        text-align: center; /* Center the content */
+    }
+    .netflix_logo img {
+        max-width: 80%; /* Adjust the maximum width for smaller screens */
+    }
+    .input-lg {
+        width: 300px; /* Adjust the width for smaller screens */
+    }
+    .container .image {
+        width: 120px;
+        height: 200px; }}
+@media (max-width: 992px) {
+    .container .image {
+        width: 150px;
+        height: 250px;
+    }
+}
